@@ -1,0 +1,64 @@
+INPUT:
+------
+java ListVimServerDetails vCloudURL user@organization password
+java ListVimServerDetails https://vcloud user@Organization password
+
+OUTPUT:
+------
+Listing All VM's
+----------------
+	VC2
+		SLSE11sp1.32 (vm-3460)
+		win2k_adv_32-sp4 (vm-3471)
+		peter-test (vm-3780)
+		Win2k7Entx64 (vm-3464)
+		rhel5base_32 (vm-3473)
+		peter-test2 (vm-3782)
+		VistaEnt_sp1x32 (vm-3466)
+		win2k8sp1x64 (vm-3462)
+		VistaEnt_sp1x64 (vm-3457)
+		win2k3-32bit (vm-3468)
+		New Virtual Machine (vm-3542)
+	VC1
+		vk-vm3 (vm-288)
+		vk-vm4 (vm-290)
+		vk-vm5 (vm-364)
+		vk-vm1 (vm-286)
+		vk-vm2 (vm-287)
+		vk-vm 1 (vm-289)
+		s1-t2 (vm-497)
+	VC3
+		No Vms
+	hao-vc
+		dsl-with-tools (vm-641)
+		vc-vm (vm-601)
+	SDK1280181584382
+		No Vms
+Listing All ResourcePool's
+--------------------------
+	VC2
+		No ResourcePools
+	VC1
+		No ResourcePools
+	VC3
+		No ResourcePools
+	hao-vc
+		RP2 (resgroup-515)
+	SDK1280181584382
+		No ResourcePools
+Listing All Datastore's
+-----------------------
+	VC2
+		No ResourcePools
+	VC1
+		No ResourcePools
+	VC3
+		No ResourcePools
+	hao-vc
+		RP2
+			datastore-691
+			datastore-507
+			datastore-508
+			datastore-509
+	SDK1280181584382
+		No ResourcePools

@@ -1,0 +1,10 @@
+INPUT:
+-----
+java DiskCRUD VcloudUrl user@oragnization Password OrganizationName vAppName vmName networkName
+java DiskCRUD https://vcloud user@Organization password orgName vappName vmName networkName
+
+OUTPUT:
+-------
+VM Found: VM1 - https://vcloud/api/vApp/vm-566002681
+	New nics Added
+	Deleted nic with ip - 192.168.1.2

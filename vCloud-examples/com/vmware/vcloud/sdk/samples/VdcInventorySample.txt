@@ -1,0 +1,30 @@
+Input:
+-----
+java VdcInventorySample vCloudURL user@organization password
+java VdcInventorySample https://vcloud user@organization password
+
+Output:
+------
+Organization					Vdc						vApp, vAppTemplate & Media
+------------        				---						--------------------------
+
+Organization1
+https://vcloud/api/org/1754121943
+						Vdc1
+						https://vcloud/api/vdc/1082665521
+												No vApp's Found
+												No vAppTemplate's Found
+												No Media's Found
+
+Organization2
+https://vcloud/api/org/579833780
+						Vdc2
+						https://vcloud/api/vdc/1674797864
+												vApp1
+												https://vcloud/api/vApp/vapp-1357389891
+												vApp2
+												https://vcloud/api/vApp/vapp-1727548573
+												vAppTemplate1
+												https://vcloud/api/vAppTemplate/vappTemplate-32423443
+												media1
+												https://vcloud/api/media/2343432

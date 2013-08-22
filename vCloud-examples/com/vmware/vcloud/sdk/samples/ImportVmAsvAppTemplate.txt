@@ -1,0 +1,19 @@
+INPUT:
+------
+java ImportVmAsvAppTemplate vCloudURL user@organization password orgname vdcname vspherename vmname
+java ImportVmAsvAppTemplate https://vcloud user@Organization password orgname vdcname vspherename vmname
+
+OUTPUT:
+------
+Organization: org name
+--------------------------------
+Vdc: vdc name
+--------------------------------
+vSphere: vsphere name
+--------------------------------
+VM Name: vm name
+--------------------------------
+Importing the VM As VappTemplate
+	Waiting for Task
+		Task Success
+	Created VappTemplate: imported vapp template

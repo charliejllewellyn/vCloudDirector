@@ -1,0 +1,15 @@
+INPUT:
+------
+java QueryAllVms vCloudURL user@organization password
+java QueryAllVms https://vcloud user@Organization password
+
+OUTPUT:
+------
+Query All VM's
+--------------
+VMName : Vm1 VMMoref : vm-337
+VMName : Vm2 VMMoref : vm-334
+VMName : Vm3 VMMoref : vm-336
+VMName : Vm4 VMMoref : vm-328
+
+Total No of VM's - 4

@@ -1,0 +1,23 @@
+INPUT:
+------
+java OrganizationCRUD VcloudUrl user@organization password
+java OrganizationCRUD https://vcloud user@Organization password
+
+OUTPUT:
+-------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	https://vcloud/api/admin/
+
+Add New Organization
+	NewOrganization
+	https://vcloud/api/admin/org/617169852
+
+Update Organization to Disabled
+	Updated
+
+Delete Organization
+	Deleted
+

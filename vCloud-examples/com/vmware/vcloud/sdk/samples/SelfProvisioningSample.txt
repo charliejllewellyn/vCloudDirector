@@ -1,0 +1,29 @@
+INPUT:
+-----
+java SelfProvisioningSample vCloudURL user@organization password ProviderVdcName ExternalNetworkName NetworkPoolName
+java SelfProvisioningSample https://vcloud user@System password providervdcname externalnetworkname networkpoolname
+
+OUTPUT:
+------
+API Self Provisioning Sample
+----------------------------
+
+Creating API Sample Org : API_Sample_Org : https://vcloud/api/admin/org/1
+	No Task
+Creating API Sample Allocation Pool Vdc : API_Sample_Allocation_Pool_vdc : https://vcloud/api/admin/vdc/2
+	Waiting for Task
+		Task Success
+Creating API Sample Pay As You Go Vdc : API_Sample_Pay_as_you_go_vdc : https://vcloud/api/admin/vdc/3
+	Waiting for Task
+		Task Success
+Creating API Sample User : API_Sample_user : https://vcloud/api/admin/user/4
+	No Task
+Creating API Sample Catalog : API_Sample_Catalog : https://vcloud/api/admin/catalog/5
+	Waiting for Task
+		Task Success
+Creating Bridged Org vDC Network
+	Bridged Org vDC Network : Bridged_Org_Vdc_Network created - https://vcloud/api/admin/network/6
+Creating Nat-Routed Org vDC Network
+	Nat-Routed Org vDC Network : Nat-Routed_Org_Vdc_Network created - https://vcloud/api/admin/network/7
+Creating Isolated Org vDC Network
+	Isolated Org vDC Network : Isolated_Org_Vdc_Network created - https://vcloud/api/admin/network/8

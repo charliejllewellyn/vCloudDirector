@@ -1,0 +1,13 @@
+INPUT:
+------
+java SSOLogin VcloudUrl Orgname
+java SSOLogin https://vcloud System
+
+OUTPUT:
+-------
+Vcloud SSO Login
+----------------
+Loading KeyStore C:\sampleskeystore.jks...
+	Logged in using the SAML Assertion
+	Get Vcloud Admin
+	Logout

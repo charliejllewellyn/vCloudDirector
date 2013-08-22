@@ -1,0 +1,21 @@
+USAGE
+-----
+vcloudUrl username password orgName vdcName newVappTemplateName existingCatalogName newVappName newVmName noOfBlankVms
+https://cloud-rtqa-be.eng.vmware.com vadmin@System akimbi AutomationOrg AutomationVdc VappTemplate-BlankVM Catalog-VappTemplate-BlankVM Vapp-BlankVMs BlankVM 5
+
+Sample Run
+----------
+Blank VM's Sample
+-----------------
+Organization :: AutomationOrg
+Vdc :: AutomationVdc
+Created VappTemplate :: VappTemplate-BlankVM
+Added VappTemplate to Catalog :: Catalog-VappTemplate-BlankVM
+Created Vapp :: Vapp-BlankVMs
+		VM Names
+		--------
+		BlankVM-1
+		BlankVM-3
+		BlankVM-0
+		BlankVM-4
+		BlankVM-2

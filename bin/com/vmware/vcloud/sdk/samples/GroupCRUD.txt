@@ -1,0 +1,24 @@
+INPUT:
+------
+java GroupCRUD VcloudUrl user@organization Password OrgName
+java GroupCRUD https://vcloud user@Organization password orgName
+
+OUTPUT:
+-------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	http://vcloud/api/admin/
+
+Get Admin Organization
+	http://vcloud/api/admin/org/90
+
+Add Group
+	http://vcloud/api/admin/group/147
+
+Update Group
+	http://vcloud/api/admin/group/147
+
+Delete Group
+	Deleted

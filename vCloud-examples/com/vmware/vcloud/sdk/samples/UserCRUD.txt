@@ -1,0 +1,24 @@
+INPUT:
+------
+java UserCRUD VcloudUrl user@organization password OrgName
+java UserCRUD https://vcloud user@Organization password orgName
+
+OUTPUT:
+-------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	https://vcloud/api/admin/
+
+Get Admin Organization
+	https://vcloud/api/admin/org/579833780
+
+Add User
+	https://vcloud/api/admin/user/12
+
+Update User
+	https://vcloud/api/admin/user/12
+
+Delete User
+	Deleted

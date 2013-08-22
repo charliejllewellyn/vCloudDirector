@@ -1,0 +1,138 @@
+INPUT:
+-----
+java ReceiveNotifications AmqpHost AmqpPort Exchange Queue VirtualHost UserName Password
+java ReceiveNotifications hostName/Ip 5672 systemExchange systemQueue / guest guest
+
+OUTPUT:
+------
+Notification - Non Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.task
+		notification.type - com/vmware/vcloud/event/task/create
+		notification.operationSuccess - true
+		notification.entityUUID - 08aa02be-882b-4630-a850-49386d2d0cea
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - e34876f8-432a-4d86-b8f1-b57e48a2b475
+	Properties:
+		Event Id - 0017b912-388c-4957-9f84-10e9500fb21d
+		Timestamp - 2011-05-24T16:20:09.423-07:00
+		Is Blocking - false
+		Entity Type - vcloud:task
+		Entity Name - vdcComposeVapp
+		Entity Id - urn:vcloud:task:08aa02be-882b-4630-a850-49386d2d0cea
+		Organization Name - AutomationOrg
+		Organization Id - urn:vcloud:org:e34876f8-432a-4d86-b8f1-b57e48a2b475
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.taskExtensionRequest
+		notification.type - com/vmware/vcloud/event/taskextension/request/create
+		notification.operationSuccess - true
+		notification.entityUUID - 7012a98e-0b52-413c-b393-fa52357174fc
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - e34876f8-432a-4d86-b8f1-b57e48a2b475
+	Properties:
+		Event Id - d5b5176b-2628-4464-bbb9-e5532fd01375
+		Timestamp - 2011-05-24T16:20:09.783-07:00
+		Is Blocking - true
+		Blocking Request Name - vdcComposeVapp
+		Blocking Request Id - urn:vcloud:taskExtensionRequest:7012a98e-0b52-413c-b393-fa52357174fc
+		Organization Name - AutomationOrg
+		Organization Id - urn:vcloud:org:e34876f8-432a-4d86-b8f1-b57e48a2b475
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.taskExtensionRequest
+		notification.type - com/vmware/vcloud/event/taskextension/request/abort
+		notification.operationSuccess - true
+		notification.entityUUID - 7012a98e-0b52-413c-b393-fa52357174fc
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - a93c9db9-7471-3192-8d09-a8f7eeda85f9
+	Properties:
+		Event Id - 32e74955-264b-445d-914b-2bb41511c8ed
+		Timestamp - 2011-05-24T16:20:22.893-07:00
+		Is Blocking - true
+		Blocking Request Name - vdcComposeVapp
+		Blocking Request Id - urn:vcloud:taskExtensionRequest:7012a98e-0b52-413c-b393-fa52357174fc
+		Organization Name - System
+		Organization Id - urn:vcloud:org:a93c9db9-7471-3192-8d09-a8f7eeda85f9
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Non Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.vapp
+		notification.type - com/vmware/vcloud/event/vapp/modify
+		notification.operationSuccess - true
+		notification.entityUUID - cd07bc16-1fa3-464d-aa35-416d61570c60
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - e34876f8-432a-4d86-b8f1-b57e48a2b475
+	Properties:
+		Event Id - b3337386-583c-47d4-838e-9a2b7fcedfb4
+		Timestamp - 2011-05-24T16:20:23.157-07:00
+		Is Blocking - false
+		Entity Type - vcloud:vapp
+		Entity Name - vApp_vadmin_3
+		Entity Id - urn:vcloud:vapp:cd07bc16-1fa3-464d-aa35-416d61570c60
+		Organization Name - AutomationOrg
+		Organization Id - urn:vcloud:org:e34876f8-432a-4d86-b8f1-b57e48a2b475
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Non Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.task
+		notification.type - com/vmware/vcloud/event/task/abort
+		notification.operationSuccess - true
+		notification.entityUUID - 08aa02be-882b-4630-a850-49386d2d0cea
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - e34876f8-432a-4d86-b8f1-b57e48a2b475
+	Properties:
+		Event Id - 5f0d1ca0-dcc3-4844-bb2e-9398fc66c074
+		Timestamp - 2011-05-24T16:20:23.290-07:00
+		Is Blocking - false
+		Entity Type - vcloud:task
+		Entity Name - vdcComposeVapp
+		Entity Id - urn:vcloud:task:08aa02be-882b-4630-a850-49386d2d0cea
+		Organization Name - AutomationOrg
+		Organization Id - urn:vcloud:org:e34876f8-432a-4d86-b8f1-b57e48a2b475
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Non Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.org
+		notification.type - com/vmware/vcloud/event/org/modify
+		notification.operationSuccess - true
+		notification.entityUUID - 88db6a6c-5db0-4908-a102-82c7baecbda6
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - a93c9db9-7471-3192-8d09-a8f7eeda85f9
+	Properties:
+		Event Id - ec51222e-a282-4176-9e05-964f1f14713f
+		Timestamp - 2011-05-24T16:20:28.583-07:00
+		Is Blocking - false
+		Entity Type - vcloud:org
+		Entity Name - Default
+		Entity Id - urn:vcloud:org:88db6a6c-5db0-4908-a102-82c7baecbda6
+		Organization Name - System
+		Organization Id - urn:vcloud:org:a93c9db9-7471-3192-8d09-a8f7eeda85f9
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781
+Notification - Non Blocking
+	Headers:
+		notification.entityType - com.vmware.vcloud.entity.org
+		notification.type - com/vmware/vcloud/event/org/modify
+		notification.operationSuccess - true
+		notification.entityUUID - 88db6a6c-5db0-4908-a102-82c7baecbda6
+		notification.userUUID - 9139fbf9-e47e-4868-a99c-9e98745b5781
+		notification.orgUUID - a93c9db9-7471-3192-8d09-a8f7eeda85f9
+	Properties:
+		Event Id - 122749e9-9483-4a30-b675-daf81d2bdabb
+		Timestamp - 2011-05-24T16:20:31.357-07:00
+		Is Blocking - false
+		Entity Type - vcloud:org
+		Entity Name - Default
+		Entity Id - urn:vcloud:org:88db6a6c-5db0-4908-a102-82c7baecbda6
+		Organization Name - System
+		Organization Id - urn:vcloud:org:a93c9db9-7471-3192-8d09-a8f7eeda85f9
+		User Name - vadmin
+		User Id - urn:vcloud:user:9139fbf9-e47e-4868-a99c-9e98745b5781

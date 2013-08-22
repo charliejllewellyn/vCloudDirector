@@ -1,0 +1,67 @@
+INPUT:
+------
+java QueryAllvApps vCloudURL user@organization password
+java QueryAllvApps https://vcloud user@Organization password
+
+OUTPUT:
+------
+Generalized Query - References Format
+-------------------------------------
+	vApp1 - https://vcloud/api/vApp/vapp-1
+	vApp2 - https://vcloud/api/vApp/vapp-2
+Generalized Query with params - References Format
+-------------------------------------------------
+	vApp2 - https://vcloud/api/vApp/vapp-2
+	vApp1 - https://vcloud/api/vApp/vapp-1
+
+Generalized Query - Records Format
+----------------------------------
+	Name : vApp1
+		Created Date : 2011-03-29T06:19:18.830-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+	Name : vApp2
+		Created Date : 2011-03-29T05:11:28.283-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+Generalized Query with params - Records Format
+----------------------------------------------
+	Name : vApp2
+		Created Date : 2011-03-29T05:11:28.283-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+	Name : vApp1
+		Created Date : 2011-03-29T06:19:18.830-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+
+Specialized Query - References format
+-------------------------------------
+	vApp1 - https://vcloud/api/vApp/vapp-1
+	vApp2 - https://vcloud/api/vApp/vapp-2
+Specialized Query with params - References Format
+-------------------------------------------------
+	vApp2 - https://vcloud/api/vApp/vapp-2
+	vApp1 - https://vcloud/api/vApp/vapp-1
+
+Specialized Query - Records format
+----------------------------------
+	Name : vApp1
+		Created Date : 2011-03-29T06:19:18.830-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+	Name : vApp2
+		Created Date : 2011-03-29T05:11:28.283-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+Specialized Query with params - Records Format
+----------------------------------------------
+	Name : vApp2
+		Created Date : 2011-03-29T05:11:28.283-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+	Name : vApp1
+		Created Date : 2011-03-29T06:19:18.830-07:00
+		CPU Mhz : 1
+		Memory Mb : 32
+

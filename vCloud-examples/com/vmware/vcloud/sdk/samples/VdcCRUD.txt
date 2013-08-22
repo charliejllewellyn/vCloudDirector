@@ -1,0 +1,28 @@
+INPUT:
+------
+java VdcCRUD VcloudUrl user@organization password orgName
+java VdcCRUD https://vcloud user@Organization password orgName
+
+OUTPUT:
+------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	https://vcloud/api/admin/
+
+Get Admin Organization
+	https://vcloud/api/admin/org/579833780
+
+Add Vdc
+	Waiting for Task
+		Task Success
+	https://vcloud/api/admin/vdc/941394159
+
+Update Vdc
+	Waiting for Task
+		Task Success
+	https://vcloud/api/admin/vdc/941394159
+
+Delete Vdc
+	Deleted

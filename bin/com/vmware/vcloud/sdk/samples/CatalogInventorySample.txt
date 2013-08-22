@@ -1,0 +1,42 @@
+Input:
+------
+java CatalogInventorySample vCloudURL user@vcloud-organization password
+java CatalogInventorySample https://vcloud user@vcloud-organization password
+
+Output:
+------
+Organization					Catalog						CatalogItem
+------------        				-------						-----------
+
+Organization1
+https://vcloud/api/org/5
+						catalog1
+						https://vcloud/api/catalog/1
+												media1
+												https://vcloud/api/catalogItem/3
+												media2
+												https://vcloud/api/catalogItem/11
+
+						catalog2
+						https://vcloud/api/catalog/2
+												media3
+												https://vcloud/api/catalogItem/10
+												media4
+												https://vcloud/api/catalogItem/2
+												media5
+												https://vcloud/api/catalogItem/1
+
+
+Organization2
+https://vcloud/api/org/6
+						catalog3
+						https://vcloud/api/catalog/3
+												media6
+												https://vcloud/api/catalogItem/3
+												media7
+												https://vcloud/api/catalogItem/11
+
+						catalog4
+						https://vcloud/api/catalog/4
+												media8
+												https://vcloud/api/catalogItem/10

@@ -1,0 +1,26 @@
+INPUT:
+------
+java ExternalNetworkCRUD Vcloud user@organization password VimServerName PortGroupName ExternalNetworkName
+java ExternalNetworkCRUD https://vcloud username@Organization password vimservername portgroupname externalnetworkname
+
+OUTPUT:
+------
+Vcloud Login
+Login Success
+
+Create External Network
+
+External Network Created
+	External Network:	externalNetworkName
+
+Update External Network
+
+External Network Updated
+	Updated External Network:	externalNetworkName_Updated
+
+Get External Network
+	externalNetworkName_Updated
+
+Delete External Network
+
+External Network deleted

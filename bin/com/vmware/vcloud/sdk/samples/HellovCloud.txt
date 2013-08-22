@@ -1,0 +1,36 @@
+Input:
+-------------------------------
+java HellovCloud vCloudURL user@vcloud-organization password orgName vdcName ovfFileLocation catalogName
+java HellovCloud https://vcloud user@vcloud-organization password orgName vdcName ovfFileLocation catalogName
+
+Output:
+-------------------------------
+Organizations:
+-------------------------------
+	Organization1
+	Organization2
+	Organization3
+VDC - VDVName
+-------------------------------
+Uploaded vAppTemplate - HellovCloud-VappTemplate
+-------------------------------
+Instantiating HellovCloud-VappTemplate
+-------------------------------
+	Configuring VM Ip Addressing Mode
+		IP-Address1
+		IP-Address2
+		IP-Address3
+Deploying the HellovCloudvApp
+-------------------------------
+PowerOn the HellovCloudvApp
+-------------------------------
+Suspend the HellovCloudvApp
+-------------------------------
+PowerOn the HellovCloudvApp
+-------------------------------
+PowerOff the HellovCloudvApp
+-------------------------------
+Undeploy the HellovCloudvApp
+-------------------------------
+Delete the HellovCloudvApp
+-------------------------------

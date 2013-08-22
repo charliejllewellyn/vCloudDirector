@@ -1,0 +1,11 @@
+INPUT:
+-----
+java DiskCRUD VcloudUrl user@oragnization Password OrganizationName vAppName vmName
+java DiskCRUD https://vcloud user@Organization password orgName vappName vmName
+
+OUTPUT:
+-------
+VM Found: VM1 - https://vcloud/api/vApp/vm-566002681
+	Adding New Disk - 1gb LsiLogic
+	New Disk Added
+	Deleted Disk

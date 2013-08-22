@@ -1,0 +1,31 @@
+INPUT:
+------
+java GuestCustomization vCloudURL user@organization password orgname vdcname vapptemplatename
+java GuestCustomization https://vcloud user@Organization password orgname vdcname vapptemplatename
+
+OUTPUT:
+------
+Org Name: org name
+--------------------
+Vdc Name: vdc name
+--------------------
+Instantiating VappTemplate: vapp template name
+-----------------------------------
+Vapp Name: HellovCloudvAppp
+--------------------
+	Waiting for Task
+		Task Success
+Setting the guest customization settings of the vm
+--------------------------------------------------
+	Waiting for Task
+		Task Success
+Deploying the HellovCloudvAppp
+--------------------
+	Waiting for Task
+		Task Success
+Undeploy and Delete Vapp
+-------------------------
+	Waiting for Task
+		Task Success
+	Waiting for Task
+		Task Success

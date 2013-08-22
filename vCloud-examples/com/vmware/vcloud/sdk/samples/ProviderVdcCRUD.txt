@@ -1,0 +1,26 @@
+INPUT:
+------
+java ProviderVdcCRUD Vcloud user@organization password VimServerName ResourcePoolName StorageProfileName ProviderVdcName
+java ProviderVdcCRUD https://vcloud username@Organization password vimservername resourcepoolname storageprofilename providervdcname
+
+OUTPUT:
+------
+Vcloud Login
+	Login Success
+
+Add VMWProviderVdc
+
+VMWProviderVdc added
+	VMWProviderVdc:	providerVdcName
+
+Update VMWProviderVdc
+
+VMWProviderVdc Updated
+	Updated VMWProviderVdc:	providerVdcName_Updated
+
+Get VMWProviderVdc
+	providerVdcName_Updated
+
+Delete VMWProviderVdc
+
+VMWProviderVdc deleted

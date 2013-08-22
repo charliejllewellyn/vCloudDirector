@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="vCloud-examples"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="amqp-client-2.3.1.jar"/>
+	<classpathentry kind="lib" path="commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.1.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="rest-api-schemas-5.1.0.jar"/>
+	<classpathentry kind="lib" path="vcloud-java-sdk-5.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

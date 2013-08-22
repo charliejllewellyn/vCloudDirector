@@ -1,0 +1,111 @@
+Input:
+-----
+java VMDetails vCloudURL user@organization password
+java VMDetails https://vcloud user@organization password
+
+Output:
+------
+Vdc : VdcName1 : ALLOCATION_POOL
+	Vapp : vapp-direct
+		Vm : vm-direct
+			Status : 8
+			CPU : 2
+			Memory : 512 Mb
+			HardDisk : 6144 Mb
+	Vapp : vapp2isolatedOrg
+		Vm : vm2isolatedOrg
+			Status : 8
+			CPU : 2
+			Memory : 512 Mb
+			HardDisk : 6144 Mb
+	Vapp : vapp2routedOrg
+		Vm : vm2routedOrg
+			Status : 8
+			CPU : 2
+			Memory : 512 Mb
+			HardDisk : 6144 Mb
+	Vapp : vApp-fenced
+		Vm : vm-fenced
+			Status : 8
+			CPU : 2
+			Memory : 512 Mb
+			HardDisk : 6144 Mb
+Vdc : VdcName2 : ALLOCATION_POOL
+Vdc : VdcName3 : ALLOCATION_POOL
+	Vapp : vapp2
+		Vm : vm1
+			Status : 8
+			CPU : 1
+			Memory : 32 Mb
+			HardDisk : 100 Mb
+Vdc : VDC-SDK : ALLOCATION_POOL
+	Vapp : demoVM1-moved-to-vCloud
+		Vm : demoVM1-moved-to-vCloud
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 300 Mb
+Vdc : VDC_SDK2 : ALLOCATION_V_APP
+	Vapp : Syd_QA_vApp_F
+		Vm : Syd_QA_VM_3
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_5
+		Vm : Syd_QA_VM_5
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_2
+		Vm : Syd_QA_VM_2-1
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+		Vm : Syd_QA_VM_2
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_3
+		Vm : Syd_QA_VM_3
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_1
+		Vm : Syd_QA_VM_1-2
+			Status : 3
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+		Vm : Syd_QA_VM_1-1
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+		Vm : Syd_QA_VM_1
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_E
+		Vm : Syd_QA_VM_3
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_D
+		Vm : Syd_QA_VM_3
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb
+	Vapp : Syd_QA_vApp_C
+		Vm : Syd_QA_VM_3
+			Status : 8
+			CPU : 1
+			Memory : 128 Mb
+			HardDisk : 512 Mb

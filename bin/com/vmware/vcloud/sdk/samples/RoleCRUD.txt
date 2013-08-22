@@ -1,0 +1,21 @@
+INPUT:
+------
+java RoleCRUD VcloudUrl user@organization password
+java RoleCRUD https://vcloud user@organization password
+
+OUTPUT:
+-------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	https://vcloud/api/admin/
+
+Add Role
+	eerole
+
+Update Role
+	eerole
+
+Delete Role
+	Deleted

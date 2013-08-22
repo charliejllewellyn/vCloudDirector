@@ -1,0 +1,15 @@
+INPUT:
+-----
+java ComposevApp vCloudURL user@organization password orgname vdcname vapptemplatename
+java ComposevApp https://vcloud user@Organization password orgname vdcname vapptemplatename
+
+OUTPUT:
+------
+Org Name: orgname
+--------------------
+Vdc Name: vdcname
+--------------------
+Vapp Template: vapptemplatename
+Composing vApp : ComposedVapp-EE
+	Waiting for Task
+		Task Success

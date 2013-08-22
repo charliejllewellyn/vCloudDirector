@@ -1,0 +1,21 @@
+INPUT:
+------
+java CatalogItemCRUD VcloudUrl user@organization Password orgName CatalogName vdcName newMediaName
+java CatalogItemCRUD https://vcloud user@Organization password orgName catalogName vdcName newMediaName
+
+OUTPUT:
+-------
+Vcloud Login
+	Login Success
+
+Get Catalog
+	https://vcloud/api/catalog/227749638
+
+Add CatalogItem
+	https://vcloud/api/catalogItem/126072184
+
+Update CatalogItem
+	https://vcloud/api/catalogItem/126072184
+
+Delete CatalogItem
+	Deleted

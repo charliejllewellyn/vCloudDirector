@@ -1,0 +1,26 @@
+INPUT:
+-----
+java CatalogCRUD VcloudUrl user@organization Password OrgName
+java CatalogCRUD https://vcloud user@Organization password orgname
+
+OUTPUT:
+------
+Vcloud Login
+	Login Success
+
+Get Vcloud Admin
+	https://vcloud/api/admin/
+
+Get Admin Organization
+	https://vcloud/api/admin/org/579833780
+
+Add AdminCatalog
+	Waiting for Task
+		Task Success
+	https://vcloud/api/admin/catalog/2108671937
+
+Update AdminCatalog
+	https://vcloud/api/admin/catalog/2108671937
+
+Delete AdminCatalog
+	Deleted

@@ -1,0 +1,42 @@
+INPUT:
+------
+java NetworkPoolCRUD Vcloud user@organization password VimServerName PortGroupName dvSwitchName NetworkPoolName
+java NetworkPoolCRUD https://vcloud username@Organization password vimservername portgroupname dvswitchname networkpoolname
+
+OUTPUT:
+------
+Vcloud Login
+Login Success
+
+Add Portgroup-backed Network Pool
+
+Portgroup-backed Network Pool Added
+	Portgroup-backed Network Pool:	networkPoolName_PortGroup_Type
+
+Add Isolation-backed Network Pool
+
+Isolation-backed Network Pool Added
+	Isolation-backed Network Pool:	networkPoolName_FencePool_Type
+
+Add Vlan-backed Network Pool
+
+Vlan-backed Network Pool Added
+	Vlan-backed Network Pool:	networkPoolName_Vlan_Type
+
+Update Vlan-backed Network Pool
+
+Vlan-backed Network Pool Updated
+	Updated Vlan-backed Network Pool:	networkPoolName_Vlan_Type_Updated
+
+Get Portgroup-backed Network Pool
+	PortGroup_Pool
+
+Get Isolation-backed Network Pool
+	FencePool_Pool
+
+Get Vlan-backed  Network Pool
+	networkPoolName_Vlan_Type_Updated
+
+Delete all three Network Pools
+
+All Network Pools deleted

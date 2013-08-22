@@ -1,0 +1,29 @@
+INPUT:
+-----
+java ThreadSample vCloudURL user@organization password downloadvAppTemplateName vdcName orgName mediaFileLocation
+java ThreadSample https://vcloud user@organization password vappTemplateName vdcName orgName media.iso
+
+OUTPUT:
+------
+Upload Thread
+Download Thread call0
+Download Thread call3
+Download Thread call4
+Download Thread call2
+Download Thread call1
+GET vAppTemplate Thread call1
+	GET vAppTemplate Thread call1
+		Name: HellovCloud
+		Status: 1
+	Downloading call0
+	Downloading call1
+	Downloading call4
+	Downloading call3
+	Downloading call2
+	Upload Started
+	Downloaded call0
+	Downloaded call4
+	Downloaded call2
+	Downloaded call1
+	Downloaded call3
+	Upload Complete

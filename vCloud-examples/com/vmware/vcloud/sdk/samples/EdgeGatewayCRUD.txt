@@ -1,0 +1,26 @@
+INPUT:
+------
+java EdgeGatewayCRUD Vcloud user@organization password OrgName AdminVdcName ExternalNetworkName EdgeGatewayName
+java EdgeGatewayCRUD https://vcloud username@Organization password orgName adminVdcName externalNetworkName edgeGatewayName
+
+OUTPUT:
+------
+Vcloud Login
+Login Success
+
+Create Edge Gateway
+
+Edge Gateway Created
+	Edge Gateway:	edgeGatewayName
+
+Update Edge Gateway
+
+Edge Gateway Updated
+	Updated Edge Gateway:	edgeGatewayName_Updated
+
+Get Edge Gateway
+	edgeGatewayName_Updated
+
+Delete Edge Gateway
+
+Edge Gateway deleted
