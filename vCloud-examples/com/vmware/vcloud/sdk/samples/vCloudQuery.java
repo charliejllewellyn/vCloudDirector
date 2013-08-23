@@ -41,6 +41,7 @@ public class vCloudQuery {
 		Collection<ReferenceType> OrgNets = Org.getNetworkRefs();
 		for ( ReferenceType OrgNet : OrgNets ){
 			System.out.println(OrgNet.getName());
+			System.out.println(OrgNet.getType());
 		}
 	}
 
