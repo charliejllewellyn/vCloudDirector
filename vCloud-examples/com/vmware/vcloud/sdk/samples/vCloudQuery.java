@@ -14,7 +14,6 @@ import org.apache.http.HttpException;
 
 import com.vmware.vcloud.api.rest.schema.AdminVdcStorageProfileType;
 import com.vmware.vcloud.api.rest.schema.IdentifiableResourceType;
-import com.vmware.vcloud.api.rest.schema.NetworkConfigurationType;
 import com.vmware.vcloud.api.rest.schema.OrgType;
 import com.vmware.vcloud.api.rest.schema.ReferenceType;
 import com.vmware.vcloud.sdk.Organization;
@@ -30,9 +29,9 @@ import com.vmware.vcloud.sdk.constants.Version;
 
 public class vCloudQuery {
 	
-	private static void GetFirewallRules(VcloudClient vcloudClient) throws VCloudException {
+	private static void QueryStorage(VcloudClient vcloudClient) throws VCloudException {
 		Collection<ReferenceType> orgRefs = vcloudClient.getOrgRefs();
-/*		for ( ReferenceType orgRef : orgRefs ){
+		for ( ReferenceType orgRef : orgRefs ){
 			System.out.println(orgRef.getName());
 			Organization org = Organization.getOrganizationByReference(vcloudClient, orgRef);
 			Collection<ReferenceType> vdcRefs = org.getVdcRefs();
@@ -47,15 +46,7 @@ public class vCloudQuery {
 				
 				
 			}	
-		}*/
-		ReferenceType orgRef = vcloudClient.getOrgRefByName("sa.eduserv.org.uk");
-		Organization org = Organization.getOrganizationByReference(vcloudClient, orgRef);
-		ReferenceType vdcRef = org.getVdcRefByName("SDC1Z01-ALLOC-01");
-		Vdc vdc = Vdc.getVdcByReference(vcloudClient, vdcRef);
-		ReferenceType vappRef = vdc.getVappRefByName("Zerto-test-SDC");
-		Vapp vapp = Vapp.getVappByReference(vcloudClient, vappRef);
-		NetworkConfigurationType vAppNetConf = vapp.getVappNetworkConfigurationByName("Zerto-SDC-network").getConfiguration();
-		vapp.getVappNetworkConfigurationByName("test").setConfiguration(vAppNetConf);
+		}
 	}
 
 	public static void main(String args[]) throws HttpException,
@@ -71,7 +62,7 @@ public class vCloudQuery {
 				.getInstance());
 		vcloudClient.login(LoginDetails[1], LoginDetails[2]);
 
-		GetFirewallRules(vcloudClient);
+		QueryStorage(vcloudClient);
 
 		
 	}
